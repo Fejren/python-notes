@@ -1,5 +1,5 @@
 ### 7. Pętle for i while
-W języku Python pętle są używane do wielokrotnego wykonania określonego fragmentu kodu. 
+Pętle są używane do wielokrotnego wykonania określonego fragmentu kodu. 
 
 ### Pętla for
 Pętla for jest używana, gdy chcemy iterować przez sekwencję (taką jak lista, krotka, napis, itp.) i wykonywać określone operacje dla każdego elementu w tej sekwencji.
@@ -52,3 +52,5 @@ counter = 0
 # Dodatkowe operacje oddzielamy ;
 while counter <= 5: print("something");counter += 1; print("else") 
 ```
+
+<hr>

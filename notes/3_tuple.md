@@ -1,6 +1,7 @@
 ### 3. Tuple
 
-Tupla znana też jako krotka w Pythonie to rodzaj kolekcji, która przechowuje różne elementy, ale jest niemutowalna, co oznacza, że nie możesz zmieniać jej zawartości po jej utworzeniu. Każdy element w tupli ma swoją pozycję, a te pozycje są numerowane od zera.
+Tupla znana też jako krotka to rodzaj kolekcji, która przechowuje różne elementy, ale jest niemutowalna, co oznacza, że nie możesz zmieniać jej zawartości po jej utworzeniu.
+<br>Każdy element w tupli jest numerowany tak jak w liście czyli od zera.
 
 Oto kilka prostych przykładów:
 
@@ -10,7 +11,7 @@ Oto kilka prostych przykładów:
 my_tuple = (1, 2, 3)
 ```
 
-Tuple w Pythonie są elastyczne i mogą zawierać różne typy danych. Oto przykład tupli, która zawiera różne rodzaje danych:
+Tuple są elastyczne i mogą zawierać różne typy danych. Oto przykład tupli, która zawiera różne rodzaje danych:
 
 ```python
 data = [1, "Hello", 3.14, True]
@@ -25,14 +26,14 @@ first_element = my_tuple[0]  # Pobiera pierwszy element (1)
 
 3. Tupla jako niezmienialna:
 
-Nie możesz zmieniać elementów w tupli po jej utworzeniu. Poniższy kod spowoduje błąd:
+Nie można zmieniać elementów w tupli po jej utworzeniu. Poniższy kod spowoduje błąd:
 ```python
 moja_tupla[0] = 4  # To wywoła błąd, bo tupla jest niemutowalna
 ```
 
 4. Rozpakowanie tupli
 
-Możesz rozpakować elementy tupli do zmiennych w jednej linii:
+Można rozpakować elementy tupli do zmiennych w jednej linii:
 ```python
 a, b, c = moja_tupla
 # Teraz a = 1, b = 2, c = 3
@@ -79,11 +80,11 @@ print(dictionary[my_tuple]) # Wypisze: value
    ```
 
 4. Tuple odnoszą się bezpośrednio do swoich elementów
-
+<br><br>
    Tupla są jak paczka, która trzyma różne rzeczy razem. Możesz się do tego odnieść bezpośrednio, jakbyś wiedział, że coś jest w paczce i możesz to z niej wyjąć.
-   
+   <br><br>
    Natomiast listy zamiast trzymać same rzeczy, trzymają one wskazówki (adresy) do tych rzeczy. I potem musisz udać się pod wskazany adres.
-   
+   <br><br>
    Dlatego krotki są szybsze, jeśli chodzi o znajdowanie i wyciąganie rzeczy, ponieważ wszystko jest bezpośrednio w paczce, podczas gdy w przypadku list, musisz znaleźć pudełko, zanim znajdziesz rzeczy w środku.
 
    <br>

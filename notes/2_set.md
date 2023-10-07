@@ -1,8 +1,8 @@
 ### 2. Zbiory
 
-Zbiory w Pythonie są kolekcją elementów, ale w przeciwieństwie do list, nie mogą zawierać duplikatów. To znaczy, że w zbiorze nie ma dwóch identycznych elementów. Zbiory są przydatne, gdy chcemy przechowywać unikalne wartości i wykonywać na nich operacje takie jak sprawdzanie, czy element jest w zbiorze, dodawanie i usuwanie elementów.
+Zbiory są kolekcją elementów, ale w przeciwieństwie do list, nie mogą zawierać duplikatów. To znaczy, że w zbiorze nie ma dwóch identycznych elementów. Zbiory są przydatne, gdy chcemy przechowywać unikalne wartości i wykonywać na nich operacje takie jak sprawdzanie, czy element jest w zbiorze, dodawanie i usuwanie elementów.
 
-Oto kilka przykładów zastosowania zbiorów w Pythonie:
+Oto kilka przykładów zastosowania zbiorów:
 
 1. Usuwanie duplikatów z listy:
 

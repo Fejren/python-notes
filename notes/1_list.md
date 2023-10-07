@@ -1,6 +1,6 @@
 ### 1. Listy
 
-Listy w Pythonie to struktury danych, które pozwalają przechowywać wiele wartości w jednej zmiennej. Możesz myśleć o liście jak o kontenerze, w którym możesz trzymać różne rzeczy, na przykład liczby, tekst czy inne zmienne.
+Listy to struktury danych, które pozwalają przechowywać wiele wartości w jednej zmiennej. Możesz myśleć o liście jak o kontenerze, w którym możesz trzymać różne rzeczy, na przykład liczby, tekst czy inne zmienne.
 
 Oto prosty przykład listy:
 
@@ -17,7 +17,7 @@ my_list.append(6)
 
 Możesz też odwoływać się do elementów listy po ich indeksach. Indeksy zaczynają się od 0. Na przykład, aby pobrać drugi element z listy, użyjemy `my_list[1]`, ponieważ 1 to indeks drugiego elementu.
 
-Listy w Pythonie są elastyczne i mogą zawierać różne typy danych. Oto przykład listy, która zawiera różne rodzaje danych:
+Listy są elastyczne i mogą zawierać różne typy danych. Oto przykład listy, która zawiera różne rodzaje danych:
 
 ```python
 data = (1, "Hello", 3.14, True)
