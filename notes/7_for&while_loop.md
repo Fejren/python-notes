@@ -12,6 +12,25 @@ for element in lista:
     print(element)
 ```
 
+Pętle instrukcje w pętli można wykonać określoną liczbę razy np. <br>
+<b>range(start, stop[, krok])</b>
+```python
+n = 5
+for i in range(5):
+    print(i) # Wypisze 0, 1, 2, 3, 4
+```
+
+```python
+for i in range(2, 5):
+    print(i) # Wypisze 2, 3, 4
+```
+
+```python
+# zaczyna od 0 kończy na 10 elemencie, wypisuje co drugi element
+for x in range(0, 10, 2):
+  print(x) # Wypisze liczby parzyste od 0 do 9
+```
+
 Pętlę można zapisać w jednej linii
 ```python
 liczby = [1, 2, 3, 4, 6]
