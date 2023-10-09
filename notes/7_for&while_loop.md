@@ -38,7 +38,7 @@ liczby = [1, 2, 3, 4, 6]
 [print(liczba) for liczba in liczby]
 
 # Również można dodać warunek do pętli oraz jej wynik przypisać do zmiennej
-liczba = [i for i in lista if i == 2]
+liczba = [i for i in liczby if i == 2]
 print(liczba) # Wypisze 2
 ```
 
